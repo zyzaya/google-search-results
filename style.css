@@ -105,7 +105,6 @@
 
 svg.filter_item {
     margin: 3 7;
-    /* padding: 0 5; */
 }
 
 #settings {
@@ -121,3 +120,80 @@ svg.filter_item {
     border-bottom: 1px solid #e2e7ec;
     position: relative;
 }
+
+#result_stats, #results {
+    margin-left: 170;
+    font-size: 13;
+    color: #4e5155;
+}
+
+#result_stats {
+    margin-top: 8;
+}
+
+#results {
+    list-style-type: none;
+    margin: inherit 0 0 0;
+    padding: 0 0;
+}
+
+#results li {
+    max-width: 666;
+    margin-top: 20;
+    margin-bottom: 20;
+}
+
+#results li div {
+    margin-top: 7;
+}
+
+.address {
+    color: #222324;
+}
+
+.title {
+    font-size: 20;
+    color: #1a0dab;
+}
+
+.summary {
+    margin-bottom: 44;
+}
+
+.also div {
+    font-size: 15;
+    color: #000000;
+    border-bottom: 1px solid #e2e7ec;
+    padding: 12 0;
+}
+
+.also div svg, .also svg {
+    float: right;
+    color: #8c9196;
+    fill: currentColor;
+}
+
+div#also_title {
+    font-size: 20;
+}
+
+.address svg {
+    color: #8c9196;
+    fill: currentColor;
+    position: relative;
+    top: 8;
+}
+
+#related div img {
+    width: 40;
+    margin-right: 24;
+}
+
+.related_item {
+    display: inline-flex;
+    align-items: center;
+}
+
+/* .related_item img {
+    ali
+} */
