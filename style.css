@@ -96,6 +96,13 @@
     height: 10%;
 }
 
+.filter_item svg {
+    color: #71757a;
+    fill: currentColor;
+    width: 18;
+    margin: 0 5;
+}
+
 svg.filter_item {
     margin: 3 7;
     /* padding: 0 5; */
