@@ -1,3 +1,7 @@
+body {
+    margin: 0;
+}
+
 #header {
     display: flex;
     align-items: center;
@@ -259,4 +263,39 @@ div#also_title {
 
 #next_page {
     color: #0d52ab;
+}
+
+#footer {
+    background-color: #f2f2f2;
+    width: 100%;
+    font-size: 14;
+    color: #70757a;
+}
+
+#footer_top {
+    border-bottom: 1px solid #8e9094;
+    padding: 14 0;
+}
+
+#footer_top, #footer_bottom {
+    margin-left: 170;
+}
+
+#country {
+    border-right: 1px solid #8e9094;
+    padding: 0 8;
+    margin-right: 8;
+}
+
+span#location {
+    color: black;
+}
+
+#footer_bottom {
+    padding: 15px 8;
+}
+
+#footer_bottom a {
+    color: #70757a;
+    padding: 15px;
 }
